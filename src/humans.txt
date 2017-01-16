@@ -1,0 +1,14 @@
+/* Rainer Flores Ibañez - FrontEnd Developer */
+
+/* TEAM */
+	Design and Programming: Rainer Flores Ibañez
+	Contact: rainer.flores64 [at] gmail.com
+	Facebook: rainer flores
+	From: La Paz, Bolivia
+
+/* SITE */
+	Last update: 2017/13/01
+	Language: Español/English
+	Standars: HTML5, CSS3, JavaScript, Node.js, NPM
+	Components: animate.css, font-awesome, jquery, owl.carousel, responsimple, wowjs, babel-preset-es2015, browser-sync, gulp, gulp-autoprefixer, gulp-babel, gulp-clean-css, gulp-concat, gulp-htmlmin, gulp-imagemin, gulp-pug, gulp-sass, gulp-svgmin, gulp-uglify, gulp-uncss, gulp-useref, gulp-webp, imagemin-pngquant, onchange, parallelshell
+	Software: Visual Code, Chrome, Windows 10

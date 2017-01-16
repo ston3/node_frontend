@@ -2,10 +2,19 @@
   "name": "aprendiendo-npm",
   "version": "1.0.0",
   "description": "En este paquete aprenderemos a trabajar con NPM",
-  "main": "package.json",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server"
+    "start": "http-server",
+    "pug":"gulp pug",
+    "es6":"gulp es6",
+    "sass":"gulp sass",
+    "build:dev":"npm run sass && npm run es6 && npm run pug",
+    "serve":"browser-sync start --server --startPath  \"dist\" --files \"dist/**/*.+(html|css|js) \" ",
+    "watch:pug":"onchange \"./src/pug/**\" -- npm run pug",
+    "watch:sass":"onchange \"./src/scss/**\" -- npm run sass",
+    "watch:es6":"onchange \"./src/es6/**\" -- npm run es6 ",
+    "watch:dev":"parallelshell \"npm run serve \" \" npm run watch:pug \" \" npm run watch:sass \" \" npm run watch:es6 \" "
   },
   "author": "rainer flores ibañez",
   "license": "MIT",
